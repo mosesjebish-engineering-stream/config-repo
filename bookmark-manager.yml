@@ -1,4 +1,6 @@
 spring:
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.security.SecurityAutoConfiguration
   datasource:
     url: jdbc:postgresql://mosesjebish.postgres.database.azure.com:5432/postgres?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory&sslmode=require
     username: mosesjebish@mosesjebish
