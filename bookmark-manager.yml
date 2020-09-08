@@ -1,3 +1,8 @@
+server:
+  tomcat:
+    basedir: ./
+  port: 7443
+
 spring:
   autoconfigure:
     exclude: org.springframework.boot.autoconfigure.security.SecurityAutoConfiguration
