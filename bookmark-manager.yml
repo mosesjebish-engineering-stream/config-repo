@@ -1,14 +1,3 @@
 test: Hello World
 
-spring:
-  datasource:
-    url: jdbc:postgresql://mosesjebish.postgres.database.azure.com:5432/postgres?user=mosesjebish@mosesjebish&password=database@123&sslmode=require
-    username: mosesjebish@mosesjebish
-    password: database@123    
-    driver-class-name: org.postgresql.Driver
 
-  jpa:
-    properties:
-      hibernate:
-        show_sql: true
-        format_sql: true
