@@ -4,8 +4,8 @@ spring:
   datasource:
     url: jdbc:postgresql://mosesjebish.postgres.database.azure.com:5432/postgres?user=mosesjebish@mosesjebish&password=database@123&sslmode=require
     username: mosesjebish@mosesjebish
-    password: database@123
-    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    password: database@123    
+    driver-class-name: org.hibernate.dialect.PostgreSQLDialect
 
   jpa:
     properties:
