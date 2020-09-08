@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://mosesjebish.postgres.database.azure.com:5432/postgres?sslmode=require
+    url: jdbc:postgresql://mosesjebish.postgres.database.azure.com:5432/postgres?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory&sslmode=require
     username: mosesjebish@mosesjebish
     password: database@123
     driver-class-name: org.postgresql.Driver
