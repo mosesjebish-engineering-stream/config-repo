@@ -1,14 +1,2 @@
 spring:
-  datasource:
-    url: jdbc:postgresql://mosesjebish.postgres.database.azure.com:5432/postgres?sslmode=require
-    username: mosesjebish@mosesjebish
-    password: ENC(lh3sZOcaLzD3SMUDFjjCwOU1XHBkS9j4)
-    driver-class-name: org.postgresql.Driver
-  jpa:
-    properties:
-      hibernate:
-        show_sql: true
-        format_sql: true
-jasypt:
-  encryptor:
-    password: secret
+
