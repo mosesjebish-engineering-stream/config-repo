@@ -1,1 +1,14 @@
 test: Hello World
+
+spring:
+  datasource:
+    url: jdbc:postgresql://mosesjebish.postgres.database.azure.com:5432/postgres?user=mosesjebish@mosesjebish&password=database@123&sslmode=require
+    username: mosesjebish@mosesjebish
+    password: database@123
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
