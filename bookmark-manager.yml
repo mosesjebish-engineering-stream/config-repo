@@ -27,7 +27,9 @@ security:
       client-id: mobile
       client-secret: pin
 
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+  api-docs:
+    path: /api-docs
 
-application:
-  version: 1.0
-  name: Bookmark Manager API
