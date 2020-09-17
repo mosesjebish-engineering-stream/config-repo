@@ -1,4 +1,5 @@
 spring:
+  port: 10443
   datasource:
     url: jdbc:postgresql://mosesjebish.postgres.database.azure.com:5432/postgres?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory&sslmode=require
     username: mosesjebish@mosesjebish
